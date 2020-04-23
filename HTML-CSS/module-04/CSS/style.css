@@ -70,11 +70,11 @@ h2::after {
 }
 .product_title {
     margin-bottom: 90px;
+    text-transform: uppercase;
 }
 .card {
     float: left;
     width: 255px;
-    height: 322px;
     margin-right: 30px;
     margin-bottom: 30px;
     background: linear-gradient(to right, #323232 80%, #8c8c8c 80%);
@@ -94,11 +94,6 @@ h2::after {
 }
 .wrapper_image {
     background-color: #e9f0fd;
-    height: 282px;
-}
-.wrapper_dsc {
-    height: 40px;
-    width: 255px;
 }
 .product_name {
     margin: 0;
@@ -111,20 +106,25 @@ h2::after {
     padding-top: 10px;
     padding-left: 14px;
 }
+.product_name a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .product_price {
     margin: 0;
     float: right;
     width: 55px;
     height: 40px;
     text-align: center;
-    color: #ffffff;
     font-family: Roboto;
     font-weight: 900;
     font-size: 18px;
     padding-top: 10px;
+    color: #ffffff;
 }
 .News {
     padding-bottom: 82px;
+    text-transform: uppercase;
 }
 .news_title {
     margin-bottom: 80px;
@@ -132,7 +132,6 @@ h2::after {
 .article_card {
     float: left;
     width: 350px;
-    height: 494px;
     margin-right: 30px;
 }
 .article_card:last-of-type {
@@ -156,7 +155,10 @@ h2::after {
     font-size: 14px;
     color: #555252;
 }
-.article_card button {
+.continue {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
     width: 160px;
     height: 50px;
     background-color: #4ec6ab;
@@ -164,6 +166,7 @@ h2::after {
     font-weight: 300;
     font-size: 16px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 
